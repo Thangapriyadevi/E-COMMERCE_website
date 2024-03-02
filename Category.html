@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Filter-sort</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="product.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul class="indicator">
+          <li data-filter="all" class="active"><a href="#">All</a></li>
+          <li data-filter="mystery"><a href="mystery.html">Mystery</a></li>
+          <li data-filter="romance"><a href="romance.html">Romance</a></li>
+          <li data-filter="kids"><a href="kids.html">Kids</a></li>
+          <li data-filter="thriller"><a href="thriller.html">Thriller</a></li>
+          <li data-filter="fantasy"><a href="fantasy.html">Fantasy</a></li>
+        </ul>
+        <div class="filter-condition">
+          <span>View As a</span>
+          <select name="" id="select">
+            <option value="Default">Default</option>
+            <option value="LowToHigh">Low to high</option>
+            <option value="HighToLow">High to low</option>
+          </select>
+        </div>
+      </header>
+      <div class="product-field">
+        <ul class="items">
+          <li data-category="">
+            <picture>
+              <img src="pro.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="fa-solid fa-heart"></i></span>
+                <span><i class="fa-solid fa-square-share-nodes"></i></span>
+                <span><i class="fa-solid fa-basket-shopping"></i></span>
+              </p>
+              <strong>The zoo</strong>
+              <span>learing books make you intelligent</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          
+          <li data-category="">
+            <picture>
+              <img src="mystery 2.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="fa-solid fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>Ties of the Blood</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="mystery 3.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>Murder</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 1.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>Fae Child</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 2.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="kids 3.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="fantasy 1.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="fantasy 4.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="fantasy 3.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="romance 1.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 6.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 5.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="thriller 1.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 4.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="pro 3.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="education 1.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="education 4.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+          <li data-category="">
+            <picture>
+              <img src="euucation 3.jpeg" alt="">
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>book</strong>
+              <span>learing books make you intelligent.</span>
+              <small> <a href="billing.html">Buy Now</a></small>
+            </div>
+            <h4>$20.01</h4>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
+<script type="text/javascript" src="product.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Cart </title>
+  <style>
+    body {
+      background-color: #eee6e6;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #2b2121;
+      margin-top: 50px;
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item img {
+      width: 100px;
+      margin-right: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item-details {
+      color: #333;
+    }
+    .cart-item-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .cart-item-author {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .cart-item-price {
+      font-size: 16px;
+      color: #333;
+    }
+    .place-order-button{
+        background-color: #4CAF50;
+        color: WHITE;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position:relative;
+        left:0;
+        transition: left 0.5s ease;
+        right: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>ROMANCE</h1>
+  <div class="cart-item">
+    <img src="romance 1.jpeg" alt="Book 1">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">Almost Heaven</h2>
+      <p class="cart-item-author">Judith McNaught</p>
+      <p class="cart-item-price">Rs:899</p>
+      <button type="submit" class="place-order-button">Place Order</button>
+    </div>
+  </div>
+
+  <div class="cart-item">
+    <img src="romance 2.jpeg" alt="Book 2">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">Until You</h2>
+      <p class="cart-item-author">Judith McNaught
+      <p class="cart-item-price">Rs:899</p>
+      <button type="submit" class="place-order-button">Place Order</button>
+      </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="romance 3.jpeg" alt="Book 2">
+        <div class="cart-item-details">
+          <h2 class="cart-item-title">Paradise</h2>
+          <p class="cart-item-author">Judith McNaught</p>
+          <p class="cart-item-price">Rs:999</p>
+          <button type="submit" class="place-order-button">Place order</button>
+          <a href="place order"></a>
+          </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="romance 4.jpeg" alt="Book 2">
+            <div class="cart-item-details">
+              <h2 class="cart-item-title">Diviant King</h2>
+              <p class="cart-item-author">Rina Kent</p>
+              <p class="cart-item-price">Rs:889</p>
+              <button type="submit" class="place-order-button">Place order</button>
+              <a href="place order"></a>
+              </div>
+              </div> 
+
+
+              <div class="cart-item">
+                <img src="romance 5.jpeg" alt="Book 2">
+                <div class="cart-item-details">
+                  <h2 class="cart-item-title">God Of Fury</h2>
+                  <p class="cart-item-author">Rina Kent</p>
+                  <p class="cart-item-price">Rs:899</p>
+                  <button type="submit" class="place-order-button">Place order</button>
+                  <a href="place order"></a>
+                  </div>
+                  </div>
+
+
+                  <div class="cart-item">
+                    <img src="romance 6.jpeg" alt="Book 2">
+                    <div class="cart-item-details">
+                      <h2 class="cart-item-title">pride and Prejudice</h2>
+                      <p class="cart-item-author">Jane Austen</p>
+                      <p class="cart-item-price">Rs:799</p>
+                      <button type="submit" class="place-order-button">Place order</button>
+                      <a href="place order"></a>
+                      </div>
+                      </div> 
+
+                      <div class="cart-item">
+                        <img src="romance 7.jpeg" alt="Book 2">
+                        <div class="cart-item-details">
+                          <h2 class="cart-item-title">Haunting Adeline</h2>
+                          <p class="cart-item-author">H.D.Carlton</p>
+                          <p class="cart-item-price">Rs:799</p>
+                          <button type="submit" class="place-order-button">Place order</button>
+                          <a href="place order"></a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+      </body>
+  </html>
+  <!DOCTYPE html>
+<html>
+<head>
+  <title> Cart </title>
+  <style>
+    body {
+      background-color: #eee6e6;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #2b2121;
+      margin-top: 50px;
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item img {
+      width: 100px;
+      margin-right: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item-details {
+      color: #333;
+    }
+    .cart-item-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .cart-item-author {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .cart-item-price {
+      font-size: 16px;
+      color: #333;
+    }
+    .place-order-button{
+        background-color: #4CAF50;
+        color: WHITE;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position:relative;
+        left:0;
+        transition: left 0.5s ease;
+        right: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>THRILLER</h1>
+  <div class="cart-item">
+    <img src="thriller 1.jpeg" alt="Book 1">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">The End Of Men</h2>
+      <p class="cart-item-author">Sweeney Baird</p>
+      <p class="cart-item-price">Rs:400</p>
+      <button type="submit" class="place-order-button">Place Order</button>
+    </div>
+  </div>
+
+  <div class="cart-item">
+    <img src="thriller 2.jpeg" alt="Book 2">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">The Women in the window</h2>
+      <p class="cart-item-author">A.J.finn
+      <p class="cart-item-price">Rs:400/p>
+      <button type="submit" class="place-order-button">Place Order</button>
+      </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="thriller 3.jpeg" alt="Book 2">
+        <div class="cart-item-details">
+          <h2 class="cart-item-title">The Unexpected Guest</h2>
+          <p class="cart-item-author">Agatha Christie</p>
+          <p class="cart-item-price">Rs:300</p>
+          <button type="submit" class="place-order-button">Place order</button>
+          <a href="place order"></a>
+          </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="thriller 4.jpeg" alt="Book 2">
+            <div class="cart-item-details">
+              <h2 class="cart-item-title">The Chain</h2>
+              <p class="cart-item-author">Adrian McKinty</p>
+              <p class="cart-item-price">Rs:400</p>
+              <button type="submit" class="place-order-button">Place order</button>
+              <a href="place order"></a>
+              </div>
+              </div> 
+
+
+              <div class="cart-item">
+                <img src="thriller 5.jpeg" alt="Book 2">
+                <div class="cart-item-details">
+                  <h2 class="cart-item-title">Origin</h2>
+                  <p class="cart-item-author">Jessica Khoury
+                  <p class="cart-item-price">Rs:400</p>
+                  <button type="submit" class="place-order-button">Place order</button>
+                  <a href="place order"></a>
+                  </div>
+                  </div>
+
+
+                  <div class="cart-item">
+                    <img src="thriller 6.jpeg" alt="Book 2">
+                    <div class="cart-item-details">
+                      <h2 class="cart-item-title">Afraid Of the Dark</h2>
+                      <p class="cart-item-author">Stephen King</p>
+                      <p class="cart-item-price">Rs:300</p>
+                      <button type="submit" class="place-order-button">Place order</button>
+                      <a href="place order"></a>
+                      </div>
+                      </div> 
+
+                      <div class="cart-item">
+                        <img src="thriller 7.jpeg" alt="Book 2">
+                        <div class="cart-item-details">
+                          <h2 class="cart-item-title">A Mother would know</h2>
+                          <p class="cart-item-author">Amber Garza</p>
+                          <p class="cart-item-price">Rs:300s</p>
+                          <button type="submit" class="place-order-button">Place order</button>
+                          <a href="place order"></a>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+      </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Cart </title>
+  <style>
+    body {
+      background-color: #eee6e6;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #2b2121;
+      margin-top: 50px;
+    }
+    .cart-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item img {
+      width: 100px;
+      margin-right: 10px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .cart-item-details {
+      color: #333;
+    }
+    .cart-item-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    .cart-item-author {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .cart-item-price {
+      font-size: 16px;
+      color: #333;
+    }
+    .place-order-button{
+        background-color: #4CAF50;
+        color: WHITE;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        position:relative;
+        left:0;
+        transition: left 0.5s ease;
+        right: 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>MYSTERY</h1>
+  <form action="billing.html">
+  <div class="cart-item">
+    <img src="mystery 1.jpeg" alt="Book 1">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">Arranged</h2>
+      <p class="cart-item-author">Naughty Nymphs</p>
+      <p class="cart-item-price">Rs:699</p>
+      <button type="submit" class="place-order-button">Place Order</button>
+    </div>
+  </div>
+
+  <div class="cart-item">
+    <img src="mystery 2.jpeg" alt="Book 2">
+    <div class="cart-item-details">
+      <h2 class="cart-item-title">Ties of Blood</h2>
+      <p class="cart-item-author">Niti Kewalramani</p>
+      <p class="cart-item-price">Rs:699</p>
+      <button type="submit" class="place-order-button">Place Order</button>
+      </div>
+      </div>
+
+      <div class="cart-item">
+        <img src="mystery 3.jpeg" alt="Book 2">
+        <div class="cart-item-details">
+          <h2 class="cart-item-title">Gurt of the Murder</h2>
+          <p class="cart-item-author">Anna Lee Huber
+          <p class="cart-item-price">Rs:599</p>
+          <button type="submit" class="place-order-button">Place order</button>
+          <a href="place order"></a>
+          </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="mystery 4.jpeg" alt="Book 2">
+            <div class="cart-item-details">
+              <h2 class="cart-item-title">Serpent Dominon</h2>
+              <p class="cart-item-author">Christopher Mitchell</p>
+              <p class="cart-item-price">Rs:599</p>
+              <button type="submit" class="place-order-button">Place order</button>
+              <a href="place order"></a>
+              </div>
+              </div> 
+
+
+              <div class="cart-item">
+                <img src="mystery 5.jpeg" alt="Book 2">
+                <div class="cart-item-details">
+                  <h2 class="cart-item-title">Times up</h2>
+                  <p class="cart-item-author">Susan Murphy</p>
+                  <p class="cart-item-price">Rs:400</p>
+                  <button type="submit" class="place-order-button">Place order</button>
+                  <a href="place order"></a>
+                  </div>
+                  </div>
+
+
+                  <div class="cart-item">
+                    <img src="mystery 6.jpeg" alt="Book 2">
+                    <div class="cart-item-details">
+                      <h2 class="cart-item-title">BloodGuard</h2>
+                      <p class="cart-item-author">Cecy Robson</p>
+                      <p class="cart-item-price">Rs:399</p>
+                      <button type="submit" class="place-order-button">Place order</button>
+                      <a href="place order"></a>
+                      </div>
+                      </div> 
+
+                      <div class="cart-item">
+                        <img src="mystery 7.jpeg" alt="Book 2">
+                        <div class="cart-item-details">
+                          <h2 class="cart-item-title">Black Door</h2>
+                          <p class="cart-item-author">AdriAnne Strickland</p>
+                          <p class="cart-item-price">Rs:399</p>
+                          <button type="submit" class="place-order-button">Place order</button>
+                          <a href="place order"></a>
+                          </div>
+                          </div>
+                          </form>
+                    </div>
+                </div>
+      </body>
+                      </html>
